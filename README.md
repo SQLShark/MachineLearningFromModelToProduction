@@ -41,13 +41,13 @@ At the end of the day we will have built a simple model and deployed it. You wil
     - Demo - Classification 
 - M2 - Creating our first Machine learning model. 
     - Demo - Creating a model - Diabetes Regression
-    - Lab 1 - Creating a Python Model
+    - [Lab 1 - Creating a Python Model](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2001)
 - M3 - Python Serailisation.   
-    - Lab 2 - The basics of serialisation in Python
+    - [Lab 2 - The basics of serialisation in Python](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2002)
 - M4 - Creating REST APIs
-    - Lab 3 - Adding Flask to our model to expose an API
+    - [Lab 3 - Adding Flask to our model to expose an API](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2003)
 - M5 - An introduction to Docker
-    - Lab 4 - Hello World! in Docker   
+    - [Lab 4 - Hello World! in Docker](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2004)  
     - Lab 5 - Deploying a web app in to Docker
     - Lab 5 - Deploying our model in to Docker
 - M6 - An Intorduction to Kubernetes
@@ -59,13 +59,15 @@ At the end of the day we will have built a simple model and deployed it. You wil
 ## Labs
 This session is designed to be a hands on workshop. You will get a mixture of Theory and real world solutions.
 To back this up we have a series of labs. 
-- Lab 1 - Creating a Python Model
-- Lab 2 - The basics of serialisation in Python
-- Lab 3 - Adding Flask to our model to expose an API
-- Lab 4 - Hello World! in Docker
-- Lab 5 - Deploying our model in to Docker
-- Lab 6 - Hello World! in Kubernetes 
-- Lab 6 - Deploying our model in Kubernetes
+- [Lab 1 - Creating a Python Model](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2001)
+- [Lab 2 - The basics of serialisation in Python](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2002)
+- [Lab 3 - Adding Flask to our model to expose an API](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2003)
+- [Lab 4 - Hello World! in Docker](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2004)
+- [Lab 5 - Deploying our model in to Docker](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2005)
+- [Lab 6 - Hello World! in Kubernetes ](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2006)
+- [Lab 7 - Deploying Azure Container Reg](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2007)
+- [Lab 8 - Deploying our model in Kubernetes](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2008)
+ 
 
 ## Structure of GitHub 
 - Slides - You will find the latest version of all the slides located [here](https://github.com/Adatis/ModernDataWarehouseWorkshop/tree/master/Slides). 
