@@ -90,7 +90,7 @@ For me that looks like this
 ```
 G:
 
-cd G:\GitHubProjects\workshop-ModelManagement\MachineLearningFromModelToProduction\Docker\DockerFlaskModel
+cd G:\GitHubProjects\workshop-ModelManagement\MachineLearningFromModelToProduction\Docker\DiabetesProductionDocker
 ```
 
 We will want to build our model 
@@ -102,7 +102,7 @@ docker build -t diabetesproduction .
 This will be build our image. 
 
 ```
-docker run --name diabetes -p 5071:5071 diabetesproduction
+docker run -d --name diabetesproduction -p 5071:5071 diabetesproduction
 ```
 
 Now navigate to localhost:5071 and you will see an error. 
@@ -112,5 +112,7 @@ That is because part of our web service is missing. If you train the model first
 localhost:5071/train?var1=1
 localhost:5071/score?var1=1
 ```
+
+Press ctrl+c to end the session. 
 
 Lab done.
