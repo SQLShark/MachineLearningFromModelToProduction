@@ -4,7 +4,7 @@
 Hello and welcome to this full day workshop on deploying machine learning models in Azure. You could use any cloud provider for what we are looking. There is lots in this course that is directly transferable to AWS or Google. You can also run this on-premises, however that misses a lot of what we are trying to create with the cloud. 
 
 # Today's Abstract
-## Building an Azure Business Intelligence Solution End to End – Hands on Workshop
+
 
 Pick up a book on Machine learning and it will explain the process for machine learning, many citing CRISP-DM as the ideal process. CRISP-DM is an iterative approach to Data Mining. It starts with business understanding the flows to data understanding, data preparation, modelling, evaluation, then either loops back around or is deployed.
 
@@ -55,6 +55,8 @@ At the end of the day we will have built a simple model and deployed it. You wil
 - M7 - DevOps for Machine Learning
     - Demo - Setting up a Build pipeline for deploying changes
 - M8 - Extending the design - The Rendezvous pattern 
+
+If we somehow make it through the day and we still have a load oftime left over. I will demo how we can serialise a model inside SQL Server and use a database to productionise a model
 
 ## Labs
 This session is designed to be a hands on workshop. You will get a mixture of Theory and real world solutions.
