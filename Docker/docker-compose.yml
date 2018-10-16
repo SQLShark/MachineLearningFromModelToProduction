@@ -1,0 +1,9 @@
+version: '3'
+
+services: 
+  product-service:
+    build: ./DiabetesProductionDocker
+    volumes:
+    - ./DiabetesProductionDocker:/usr/src/app
+    ports:
+    - 5071:5071
