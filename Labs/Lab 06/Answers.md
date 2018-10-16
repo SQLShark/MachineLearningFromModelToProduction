@@ -96,13 +96,13 @@ cd G:\GitHubProjects\workshop-ModelManagement\MachineLearningFromModelToProducti
 We will want to build our model 
 
 ```
-docker build -t diabetesproduction .
+docker build -t productiondiabetes .
 ```
 
 This will be build our image. 
 
 ```
-docker run -d --name diabetesproduction -p 5071:5071 diabetesproduction
+docker run -d --name productiondiabetes -p 5071:5071 productiondiabetes
 ```
 
 Now navigate to localhost:5071 and you will see an error. 

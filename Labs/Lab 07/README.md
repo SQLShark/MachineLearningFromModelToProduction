@@ -74,13 +74,13 @@ This will return something that looks like **m3modelmanagementterry.azurecr.io**
 We now need to take our local docker image an deploy it. ACR can collect multiple version of the same image and source control them for you. Each new upload acts as a new version. We will first tag the image with the version is. This is V1 of our model so we will append v1 to the end. This is indicated by the :1. 
 
 ```
-docker tag diabetesproduction m3modelmanagementterry.azurecr.io/diabetesproduction:v1
+docker tag productiondiabetes m3modelmanagementterry.azurecr.io/productiondiabetes:v1
 ```
 
 Now we need to push this model to ACR. 
 
 ```
-docker push m3modelmanagementterry.azurecr.io/diabetesproduction:v1
+docker push m3modelmanagementterry.azurecr.io/productiondiabetes:v1
 ```
 
 Azure CLI should kick in and start pushing all the layers of your image in to Azure. Some parts are quite large so this may take a minute or so.

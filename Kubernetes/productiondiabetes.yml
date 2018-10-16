@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: productiondiabetes
-        image: devopsml.azurecr.io/diabetes:v1
+        image: m3modelmanagementterry.azurecr.io/productiondiabetes:v1
         ports:
         - containerPort: 5071
           name: dockerport
