@@ -48,6 +48,7 @@ At the end of the day we will have built a simple model and deployed it. You wil
     - Lab 3 - Adding Flask to our model to expose an API
 - M5 - An introduction to Docker
     - Lab 4 - Hello World! in Docker   
+    - Lab 5 - Deploying a web app in to Docker
     - Lab 5 - Deploying our model in to Docker
 - M6 - An Intorduction to Kubernetes
     - Lab 6 - Deploying our model in Kubernetes

@@ -1,4 +1,4 @@
-# Lab 5 - Deploying our model in to Docker
+# Lab 5 - Deploying a container in to Docker
 
 So now we have a Python model and we know how to run a Docker container. 
 
