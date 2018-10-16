@@ -1,3 +1,5 @@
+![GitHub Logo](https://github.com/SQLShark/MachineLearningFromModelToProduction/blob/master/Images/Header1.png)
+
 # Machine Learning: From model to production using the cloud, Containers and DevOps
 Hello and welcome to this full day workshop on deploying machine learning models in Azure. You could use any cloud provider for what we are looking. There is lots in this course that is directly transferable to AWS or Google. You can also run this on-premises, however that misses a lot of what we are trying to create with the cloud. 
 
@@ -100,3 +102,4 @@ You can contact Terry here: tpm@adatis.co.uk or via [@SQLShark](https://twitter.
 
 As we talk about interesting links and examples we will collect these here for future reference. 
 
+- [Azure Model Management](https://azuremarketplace.microsoft.com/fi/marketplace/apps/Microsoft.MachineLearningModelManagement?tab=Overview) - Now marked for retirement  
