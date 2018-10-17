@@ -171,3 +171,8 @@ http://40.113.78.55/score?var1=1
 ```
 Lab complete. You have now created a model and deployed it to a container running on Kubernetes. 
 
+IF YOU HAVE 14 ERRORS run this: 
+
+```
+kubectl create clusterrolebinding kubernetes-dashboard -n kube-system --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
+```
