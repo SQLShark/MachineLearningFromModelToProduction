@@ -9,7 +9,7 @@ Let's walk though the solution end-to-end.
 Create the following files: 
 ```
 Dockerfile
-app.py
+DiabetesModelFlask.py
 requirements.txt
 ```
 
@@ -21,7 +21,7 @@ COPY . usr/src/app
 CMD ["python", "DiabetesModelFlask.py"]
 ```
 
-in app.py we want to add the following: 
+in DiabetesModelFlask.py we want to add the following: 
 
 ```
 # Product Service
