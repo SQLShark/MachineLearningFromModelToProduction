@@ -1,4 +1,4 @@
-# Lab 06 
+# Lab 06 - Deploying your model
 
 The last lab was a bit of a tangent, but it was to show some of the quirks of working with Docker. 
 
