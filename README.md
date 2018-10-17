@@ -108,3 +108,22 @@ You can contact Terry here: tpm@adatis.co.uk or via [@SQLShark](https://twitter.
 As we talk about interesting links and examples we will collect these here for future reference. 
 
 - [Azure Model Management](https://azuremarketplace.microsoft.com/fi/marketplace/apps/Microsoft.MachineLearningModelManagement?tab=Overview) - Now marked for retirement  
+http://engineering.pivotal.io/post/api-first-for-data-science/
+
+https://medium.com/idealo-tech-blog/falcon-vs-flask-which-one-to-pick-to-create-a-scalable-deep-learning-rest-api-adef647ebdec
+
+http://clipper.ai
+
+http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
+
+https://ai.google/research/pubs/pub43146
+
+https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a
+
+https://github.com/manifoldai/docker-cookiecutter-data-science/blob/master/README.md
+
+https://www.inovex.de/de/content-pool/vortraege/bridging-the-gap-from-data-science-to-production/
+
+https://www.slideshare.net/DavidKunFF/ownr-platform-extended-technical-introduction/
+
+https://news.ycombinator.com/item?id=13821217

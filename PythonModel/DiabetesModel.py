@@ -34,7 +34,7 @@ diabetes_y_pred = regr.predict(diabetes_X_test)
 # Examples to show. 
 #print(diabetes_y_pred)
 
-NewValue = 12
+NewValue = 0.78
 NewValuePrediction = regr.predict(NewValue)
 
 print(NewValuePrediction)
