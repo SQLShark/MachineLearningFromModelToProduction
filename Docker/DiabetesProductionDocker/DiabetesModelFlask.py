@@ -16,7 +16,7 @@ def apicall():
     with open(PickleModelPath, 'rb') as k:
         PickleModel = pickle.load(k)
     Answer = PickleModel.predict(var1)
-    return jsonify(Answer)
+    return jsonify(Answer.tolist())
 
 
 @app.route('/train')
