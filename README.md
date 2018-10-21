@@ -56,7 +56,7 @@ At the end of the day we will have built a simple model and deployed it. You wil
     - [Lab 4 - Hello World! in Docker](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2004)  
     - [Lab 5 - Deploying a web app in to Docker](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2005)
     - [Lab 6 - Deploying our model in to Docker](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2006)
-- [M6 - An Intorduction to Kubernetes](https://github.com/SQLShark/MachineLearningFromModelToProduction/blob/master/Slides/M6%20-%20An%20Introduction%20to%20Kubernetes.pdf)
+- [M6 - An Introduction to Kubernetes](https://github.com/SQLShark/MachineLearningFromModelToProduction/blob/master/Slides/M6%20-%20An%20Introduction%20to%20Kubernetes.pdf)
     - [Lab 7 - Deploying Azure Container Reg](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2007)
     - [Lab 8 - Deploying our model in Kubernetes](https://github.com/SQLShark/MachineLearningFromModelToProduction/tree/master/Labs/Lab%2008)
 - [M7 - DevOps for Machine Learning](https://github.com/SQLShark/MachineLearningFromModelToProduction/blob/master/Slides/M7%20-%20DevOps%20for%20Machine%20Learning.pdf)
