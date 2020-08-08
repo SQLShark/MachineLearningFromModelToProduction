@@ -8,15 +8,16 @@ from sklearn import datasets, linear_model
 app = Flask(__name__)
 api = Api(app)
 
-PickleModelPath = './regression.pkl'
+PickleModelPath = 'regression.pkl'
 
 @app.route('/score')
 def apicall():  
-    var1 = float(request.args.get('var1'))
+    var = float(request.args.get('var1'))
+    var1 = np.reshape(var, (-1, 1))
     with open(PickleModelPath, 'rb') as k:
         PickleModel = pickle.load(k)
     Answer = PickleModel.predict(var1)
-    return jsonify(Answer.tolist())
+    return jsonify( Answer.tolist())
 
 
 @app.route('/train')
@@ -39,10 +40,10 @@ def apicalled():
     diabetes_y_pred = regr.predict(diabetes_X_test)
     with open(PickleModelPath, 'wb') as f:
             pickle.dump(regr, f)  
-    return "Model hase been retrained. Run /score to score model"
+    return "Model hase been retrained. Run /score to score model " + PickleModelPath
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5071, debug=True)
+    app.run(host='0.0.0.0', port=5071)
 
 #http://localhost:5071/train
 #http://localhost:5071/score?var1=10

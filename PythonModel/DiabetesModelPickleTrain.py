@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import datasets, linear_model
 import _pickle as pickle
 
-PickleModelPath = './regression.pkl'
+PickleModelPath = 'regression.pkl'
 
 # Load the diabetes dataset
 diabetes = datasets.load_diabetes()
@@ -23,4 +23,4 @@ regr.fit(diabetes_X_train, diabetes_y_train)
 diabetes_y_pred = regr.predict(diabetes_X_test)
 with open(PickleModelPath, 'wb') as f:
         pickle.dump(regr, f)  
-print("Model has been retrained. Run /score to score model")
+print("Model smap has been retrained. Run /score to score model {}").format(PickleModelPath)

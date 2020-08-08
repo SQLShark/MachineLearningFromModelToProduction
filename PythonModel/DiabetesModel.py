@@ -35,6 +35,11 @@ diabetes_y_pred = regr.predict(diabetes_X_test)
 #print(diabetes_y_pred)
 
 NewValue = 0.78
-NewValuePrediction = regr.predict(NewValue)
+
+# dd a commentas to why
+NV = np.reshape(NewValue, (-1, 1))
+NV = [[NewValue]]
+
+NewValuePrediction = regr.predict(NV)
 
 print(NewValuePrediction)
